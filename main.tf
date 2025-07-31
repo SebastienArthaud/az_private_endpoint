@@ -1,15 +1,15 @@
 locals {
   private_dns_zones = {
-    file             = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.file.core.windows.net"]
-    blob             = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net"]
-    vault            = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net"]
-    sqlServer        = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.database.windows.net"]
-    mysqlServer      = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.mysql.database.azure.com"]
-    postgresqlServer = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.postgres.database.azure.com"]
-    mariadbServer    = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.mariadb.database.azure.com"]
-    sites            = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net"]
-    "sites-staging"  = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net"]
-    registry         = ["/subscriptions/35b8f0ee-20f9-4053-861e-cfc15d26cc77/resourceGroups/lz-dns/providers/Microsoft.Network/privateDnsZones/privatelink.azurecr.io"]
+    file             = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    blob             = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    vault            = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    sqlServer        = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    mysqlServer      = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    postgresqlServer = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    mariadbServer    = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    sites            = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    "sites-staging"  = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
+    registry         = [INSERER ICI L'ID DE LA PRIVATE DNS ZONE]
   }
 }
 
